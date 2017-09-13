@@ -30,7 +30,7 @@
     </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="container" style="padding-top: 100px">
+    <div class="container" style="padding-top: 50px">
       <div class="row">
 
         <main class="ml-sm-auto col-md-12" role="main">
