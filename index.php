@@ -16,6 +16,9 @@
     <!-- Custom styles for this template -->
     <link href="css/material-icons.css" rel="stylesheet">
     <link href="css/jumbotron.css" rel="stylesheet">
+
+
+
   </head>
 
   <body>
@@ -65,6 +68,7 @@
         <div class="col-md-4">
           <h2>Footer</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          Copy
         </div>
         <div class="col-md-4">
           <h2>Footer</h2>
@@ -86,9 +90,9 @@
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.min.js"></script>
+
+    <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script> 
+    <script src="js/popper.min.js" type="text/javascript"></script> 
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
   </body>
 </html>

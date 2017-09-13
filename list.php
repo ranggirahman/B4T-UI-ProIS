@@ -23,9 +23,15 @@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container">
         <a class="navbar-brand" href="index.php"><img src="img/logo.png" class="img-fluid" style="max-width: 20%; and height: auto" alt="Responsive image"> Balai Besar Bahan dan Barang Teknik</a>
-        <a>
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="material-icons" style="font-size: 13px">perm_identity</i> User</button>
-        </a>       
+        <div class="dropdown">
+          <button class="btn btn-info my-2 my-sm-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons" style="font-size: 13px">perm_identity</i> Username</button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Edit Profile</a>
+            <a class="dropdown-item" href="#">Logout</a>
+          </div>
+        </div>       
+      </div>
+    </nav>      
       </div>
     </nav>
 
@@ -131,8 +137,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script> 
+    <script src="js/popper.min.js" type="text/javascript"></script> 
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
   </body>
 </html>
