@@ -74,7 +74,7 @@
           </div>
 
           <div class="table-responsive">
-            <table class="table table-hover">
+            <table class="table table-striped">
               <thead class="thead-inverse">
                 <tr>
                   <th>Pemesan</th>

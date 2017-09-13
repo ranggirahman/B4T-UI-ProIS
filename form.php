@@ -32,49 +32,9 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="container" style="padding-top: 50px">
       <div class="row">
-
         <main class="ml-sm-auto col-md-12" role="main">
-          <section class="row text-center placeholders">
-            <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-              <h4>Total Pesanan</h4>
-            </div>
-            <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-              <h4>Menunggu Disetujui</h4>
-            </div>
-            <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-              <h4>Proses Pengadaan</h4>
-            </div>
-            <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-              <h4>Tidak Disetujui</h4>
-            </div>
-          </section>
-
-          <div class="table-responsive" style="padding-top: 20px">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th>
-                    <button class="btn btn-success" type="submit"><i class="material-icons" style="font-size: 15px">add</i> Buat Pesanan</button>
-                  </th>                  
-                  <form class="form-inline">
-                    <th>
-                      <input class="form-control" type="text" placeholder="Cari Berkas" size="100%" aria-label="Search">
-                    </th>
-                    <th>
-                      <button class="btn btn-primary" type="submit"><i class="material-icons" style="font-size: 13px">search</i></button>
-                    </th>
-                  </form>
-                </tr>              
-              </thead>         
-            </table> 
-          </div>
-
           <div class="table-responsive">
-            <table class="table table-hover">
+            <table class="table table-striped">
               <thead class="thead-inverse">
                 <tr>
                   <th>Pemesan</th>
