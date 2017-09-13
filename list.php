@@ -27,7 +27,7 @@
           <button class="btn btn-info my-2 my-sm-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons" style="font-size: 13px">perm_identity</i> Username</button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#">Edit Profile</a>
-            <a class="dropdown-item" href="#">Logout</a>
+            <a class="dropdown-item" style="color: red" href="#">Logout</a>
           </div>
         </div>       
       </div>
@@ -42,20 +42,20 @@
         <main class="ml-sm-auto col-md-12" role="main">
           <section class="row text-center placeholders">
             <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-              <h4>Total Pesanan</h4>
-            </div>
-            <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+              <h1>11</h1>
               <h4>Menunggu Disetujui</h4>
             </div>
             <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+              <h1>12</h1>
               <h4>Proses Pengadaan</h4>
             </div>
             <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+              <h1>10</h1>
               <h4>Tidak Disetujui</h4>
+            </div>
+            <div class="col-6 col-sm-3 placeholder">
+              <h1>10</h1>
+              <h4>Selesai Pengadaan</h4>
             </div>
           </section>
 
@@ -140,5 +140,13 @@
     <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script> 
     <script src="js/popper.min.js" type="text/javascript"></script> 
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').focus()
+      })
+    </script>
+
+
   </body>
 </html>

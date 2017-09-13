@@ -52,8 +52,8 @@
               <hr>
               <table border=0>
                 <tr>
-                  <td><input class="btn btn-success" type="submit" name="submit" value="Login"></td>
-                  <td><input class="btn btn-warning" type="submit" name="submit" value="Lupa Password"></td>
+                  <td><input class="btn btn-success" type="submit" name="submit" data-toggle="modal" data-target="#exampleModal" value="Login"></td>
+                  <td><input class="btn btn-warning" type="button" name="submit" value="Lupa Password"></td>
                 </tr>                            
               </table>
             </form>
@@ -86,6 +86,20 @@
         <p>&copy; 2017 Balai Besar Bahan dan Barang Teknik (B4T). All Rights Reserved</p>
       </footer>
     </div> <!-- /container -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <!-- Bootstrap core JavaScript
