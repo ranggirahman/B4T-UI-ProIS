@@ -24,10 +24,11 @@
       <div class="container">
         <a class="navbar-brand" href="index.php"><img src="img/logo.png" class="img-fluid" style="max-width: 20%; and height: auto" alt="Responsive image"> Balai Besar Bahan dan Barang Teknik</a>
         <div class="dropdown">
-          <button class="btn btn-info my-2 my-sm-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons" style="font-size: 13px">perm_identity</i> Username</button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons" style="font-size: 13px">account_circle</i> Username</button>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#">Edit Profile</a>
-            <a class="dropdown-item" style="color: red" href="#">Logout</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" style="color: red; font-weight: bold" href="#">Logout</a>
           </div>
         </div>       
       </div>
@@ -36,25 +37,25 @@
     </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="container" style="padding-top: 50px">
+    <div class="container">
       <div class="row">
 
         <main class="ml-sm-auto col-md-12" role="main">
           <section class="row text-center placeholders">
-            <div class="col-6 col-sm-3 placeholder">
-              <h1>11</h1>
+            <div class="col-6 col-sm-3 placeholder" style="padding-top: 70px">
+              <h1><i class="material-icons" style="font-size: 28px">timelapse</i> 11</h1>
               <h4>Menunggu Disetujui</h4>
             </div>
-            <div class="col-6 col-sm-3 placeholder">
-              <h1>12</h1>
+            <div class="col-6 col-sm-3 placeholder" style="padding-top: 70px">
+              <h1><i class="material-icons" style="font-size: 28px">shopping_cart</i> 12</h1>
               <h4>Proses Pengadaan</h4>
             </div>
-            <div class="col-6 col-sm-3 placeholder">
-              <h1>10</h1>
+            <div class="col-6 col-sm-3 placeholder" style="padding-top: 70px">
+              <h1><i class="material-icons" style="font-size: 28px">speaker_notes_off</i> 10</h1>
               <h4>Tidak Disetujui</h4>
             </div>
-            <div class="col-6 col-sm-3 placeholder">
-              <h1>10</h1>
+            <div class="col-6 col-sm-3 placeholder" style="padding-top: 70px">
+              <h1><i class="material-icons" style="font-size: 28px">assignment_turned_in</i> 10</h1>
               <h4>Selesai Pengadaan</h4>
             </div>
           </section>

@@ -43,7 +43,7 @@
               <table border=0>
                 <th><h3>Login</h3></th>
                 <tr height="50px">
-                    <td><input class="form-control" type="user" name="email" placeholder="Username" maxlength="40" size="40" required></td>
+                    <td><input class="form-control" type="user" name="user" placeholder="Username" maxlength="40" size="40" required></td>
                 </tr>
                 <tr height="50px">
                     <td><input class="form-control" type="password" name="password" placeholder="Password" maxlength="40" size="40" required></td>
@@ -88,11 +88,11 @@
     </div> <!-- /container -->
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" style="padding-top: 200px" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Username atau Password Salah</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
