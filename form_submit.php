@@ -38,43 +38,107 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="container" style="padding-top: 70px">
-        <div class="card">
-          <h4 class="card-header">Form Daftar Pemesanan Barang / Jasa</h4>
-          <div class="card-body">
-            <form action='response.php' method='POST'>
-              <table border=0>
-                <tr height="50px">
-                  <td width="40%">Kepada</td>
-                  <td><input class="form-control" type="text" name="kepada" required></td>
-                </tr>
-                <tr height="50px">
-                  <td width="25%">Dari</td>
-                  <td><input class="form-control" type="text" name="dari" required></td>
-                </tr>
-                <tr height="50px">
-                  <td width="25%">Agar</td>
-                  <td><input class="form-control" type="text" name="agar" required></td>
-                </tr>
-                  
-              </table>
-            </form>          
-          </div>
-          <div class="card-footer">
+      <div class="card">
+        <h4 class="card-header">Form Daftar Pemesanan Barang / Jasa</h4>
+        <div class="card-body">
+          <form action='response.php' method='POST'>
             <table border=0>
-              <tr>
-                <td style="padding-right: 20px">
-                  Masukan Kembali Password
-                </td>
-                <td style="padding-right: 20px">
-                  <input class="form-control" type="password" name="password" required>
-                </td>
-                <td>            
-                  <a href="#" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Submit</a>
-                </td>
+              <tr height="50px">
+                <td width="50%">Kepada</td>
+                <td><input class="form-control" type="text" name="kepada" required></td>
               </tr>
+              <tr height="50px">
+                <td width="50%">Dari</td>
+                <td><input class="form-control" type="text" name="dari" required></td>
+              </tr>
+              <tr height="50px">
+                <td width="50%">Agar</td>
+                <td><input class="form-control" type="text" name="agar" required></td>
+              </tr>
+              <tr height="50px">
+                <td width="50%">Diperlukan Tanggal</td>
+                <td><input class="form-control" type="date" name="tanggal" required></td>
+              </tr>                   
             </table>
-          </div>
+            <hr>
+            <div class="table-responsive">
+              <table border="0" class="table">
+                <thead class="thead-default">
+                  <tr>
+                    <th>No.</th>
+                    <th width="17%">Kategori</th>
+                    <th>Nama dan Spesifikasi Barang / Jasa</th>
+                    <th width="20%">Banyaknya</th>
+                  </tr>
+                </thead>
+                <tbody>   
+                  <tr style="">
+                    <td>1</td>
+                    <td>ATK</td>
+                    <td>Donec id elit non mi porta gravida at eget metus</td>
+                    <td>3 Buah</td>
+                  </tr>  
+                  <tr style="">
+                    <td>2</td>
+                    <td>ATK</td>
+                    <td>Donec id elit non mi porta gravida at eget metus</td>
+                    <td>2 Set</td>
+                  </tr>  
+                  <tr style="">
+                    <td>3</td>
+                    <td>ATK</td>
+                    <td>Donec id elit non mi porta gravida at eget metus</td>
+                    <td>1 Buah</td>
+                  </tr>  
+                  <tr style="">
+                    <td>4</td>
+                    <td>ATK</td>
+                    <td>Donec id elit non mi porta gravida at eget metus</td>
+                    <td>1 Pack</td>
+                  </tr>
+                  <tr style="">
+                    <td></td>
+                    <td><input class="form-control" type="text" name="kategori" required></td>
+                    <td><input class="form-control" type="text" name="nbarangjasa" required></td>
+                    <td>
+                      <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                        <button class="btn btn-info" type="button">Tambah</button>
+                        </span>
+                      </div>
+                    </td>
+                  </tr>    
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <div class="form-group">
+              <label for="keterangan">Keterangan</label>
+              <textarea class="form-control" rows="5" id="keterangan"></textarea>
+            </div>
+          </form>          
         </div>
+        <div class="card-footer">
+          <table border=0>
+            <tr>
+              <td style="padding-right: 20px">
+                Masukan Kembali Password
+              </td>
+              <td style="padding-right: 20px">
+                <input class="form-control" type="password" name="password" required>
+              </td>
+              <td>            
+                <a href="#" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Submit</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
     </div> <!-- /container -->
 
     <!-- Modal -->
