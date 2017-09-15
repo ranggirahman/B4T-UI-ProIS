@@ -16,6 +16,7 @@
     <!-- Custom styles for this template -->    
     <link href="css/material-icons.css" rel="stylesheet">
     <link href="css/dashboard.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
   </head>
 
   <body>
@@ -42,22 +43,27 @@
         <h4 class="card-header">Form Daftar Pemesanan Barang / Jasa</h4>
         <div class="card-body">
           <form action='response.php' method='POST'>
-            <table border=0>
-              <tr height="50px">
-                <td width="50%">Kepada</td>
-                <td><input class="form-control" type="text" name="kepada" required></td>
+            <table class="table borderless" style="border: none">
+              <tr>
+                <td width="20%">Kepada</td>
+                <td colspan="2"><input class="form-control" type="text" name="kepada" placeholder="Kepala B4T,u.p. Kepala Bagian Tata Usaha" readonly></td>
+                <td width="30%"></td>
               </tr>
-              <tr height="50px">
-                <td width="50%">Dari</td>
-                <td><input class="form-control" type="text" name="dari" required></td>
+              <tr>
+                <td>Dari</td>
+                <td colspan="2"><input class="form-control" type="text" name="dari" placeholder="Seksi Informasi" data-toggle="popover" title="" data-content="Sesuai ID Login Anda" readonly></td>
+                <td width="30%"></td>
               </tr>
-              <tr height="50px">
-                <td width="50%">Agar</td>
-                <td><input class="form-control" type="text" name="agar" required></td>
+              <tr>
+                <td>Agar</td>
+                <td colspan="2"><input class="form-control" type="text" name="agar" required></td>
+                <td width="30%"></td>
               </tr>
-              <tr height="50px">
-                <td width="50%">Diperlukan Tanggal</td>
+              <tr>
+                <td>Diperlukan Tanggal</td>
                 <td><input class="form-control" type="date" name="tanggal" required></td>
+                <td width="50%"></td>
+                <td width="30%"></td>
               </tr>                   
             </table>
             <hr>
@@ -166,6 +172,10 @@
     <script type="text/javascript">
       $('#myModal').on('shown.bs.modal', function () {
         $('#myInput').focus()
+      })
+
+      $(function () {
+        $('[data-toggle="popover"]').popover()
       })
     </script>
 
