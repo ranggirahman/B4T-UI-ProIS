@@ -104,7 +104,7 @@
                       <div class="input-group">
                         <input type="text" class="form-control">
                         <span class="input-group-btn">
-                        <button class="btn btn-info" type="button">Tambah</button>
+                        <button class="btn btn-info" type="button">Add</button>
                         </span>
                       </div>
                     </td>
