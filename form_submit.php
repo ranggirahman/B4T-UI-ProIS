@@ -18,6 +18,7 @@
     <link href="css/dashboard.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
   </head>
+  
 
   <body>
 
@@ -129,7 +130,7 @@
           <table border=0>
             <tr>
               <td style="padding-right: 20px">
-                Masukan Kembali Password
+                Masukan Kembali Password Akun Anda
               </td>
               <td style="padding-right: 20px">
                 <input class="form-control" type="password" name="password" required>

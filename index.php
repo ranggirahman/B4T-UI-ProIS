@@ -17,10 +17,20 @@
     <link href="css/material-icons.css" rel="stylesheet">
     <link href="css/jumbotron.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <style> 
+      .fixed-bg {
+          background-image: url("img/homebg.jpg");
+          min-height: 500px;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+    </style>
   </head>
-
-  <body>
-
+  <body>    
+    
+    <div class="fixed-bg"></div>  
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container">
         <a class="navbar-brand" href="index.php"><img src="img/logo.png" class="img-fluid" style="max-width: 20%; and height: auto" alt="Responsive image"> Balai Besar Bahan dan Barang Teknik</a>        
@@ -63,25 +73,15 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <h2>Footer</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          Copy
-        </div>
-        <div class="col-md-4">
-          <h2>Footer</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        </div>
-        <div class="col-md-4">
-          <h2>Footer</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <div class="col-md-12">
+          <h5>Ini Adalah Website Sistem Informasi Untuk Memudahkan Tracking Berkas Pengadaan Barang dan Jasa Pada Balai Besar Bahan dan Barang Teknik (B4T).</h5>
         </div>
       </div>
 
       <hr>
 
       <footer>
-        <p>&copy; 2017 Balai Besar Bahan dan Barang Teknik (B4T). All Rights Reserved</p>
+        <p>&copy; 2017 Balai Besar Bahan dan Barang Teknik. All Rights Reserved</p>
       </footer>
     </div> <!-- /container -->
 
