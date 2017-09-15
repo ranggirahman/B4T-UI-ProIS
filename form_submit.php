@@ -18,7 +18,7 @@
     <link href="css/dashboard.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
   </head>
-  
+
 
   <body>
 
@@ -44,7 +44,7 @@
         <h4 class="card-header">Form Daftar Pemesanan Barang / Jasa</h4>
         <div class="card-body">
           <form action='response.php' method='POST'>
-            <table class="table borderless" style="border: none">
+            <table class="table borderless">
               <tr>
                 <td width="20%">Kepada</td>
                 <td colspan="2"><input class="form-control" type="text" name="kepada" placeholder="Kepala B4T,u.p. Kepala Bagian Tata Usaha" readonly></td>
@@ -52,7 +52,7 @@
               </tr>
               <tr>
                 <td>Dari</td>
-                <td colspan="2"><input class="form-control" type="text" name="dari" placeholder="Seksi Informasi" data-toggle="popover" title="" data-content="Sesuai ID Login Anda" readonly></td>
+                <td colspan="2"><input class="form-control" type="text" name="dari" placeholder="Ranggi Rahman (Seksi Informasi)" data-toggle="popover" title="" data-content="Sesuai ID Login Anda" readonly></td>
                 <td width="30%"></td>
               </tr>
               <tr>
