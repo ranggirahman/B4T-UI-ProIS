@@ -47,23 +47,22 @@
             <table class="table borderless">
               <tr>
                 <td width="20%">Kepada</td>
-                <td colspan="2"><input class="form-control" type="text" name="kepada" placeholder="Kepala B4T,u.p. Kepala Bagian Tata Usaha" readonly></td>
+                <td colspan="2">Kepala B4T,u.p. Kepala Bagian Tata Usaha</td>
                 <td width="30%"></td>
               </tr>
               <tr>
                 <td>Dari</td>
-                <td colspan="2"><input class="form-control" type="text" name="dari" placeholder="Ranggi Rahman (Seksi Informasi)" data-toggle="popover" title="" data-content="Sesuai ID Login Anda" readonly></td>
+                <td colspan="2">Ranggi Rahman (Seksi Informasi)</td>
                 <td width="30%"></td>
               </tr>
               <tr>
                 <td>Agar</td>
-                <td colspan="2"><input class="form-control" type="text" name="agar" required></td>
+                <td colspan="2">Diadakan</td>
                 <td width="30%"></td>
               </tr>
               <tr>
                 <td>Diperlukan Tanggal</td>
-                <td><input class="form-control" type="date" name="tanggal" required></td>
-                <td width="50%"></td>
+                <td colspan="2">18 Desember 2017</td>
                 <td width="30%"></td>
               </tr>                   
             </table>
@@ -75,7 +74,8 @@
                     <th>No.</th>
                     <th width="17%">Kategori</th>
                     <th>Nama dan Spesifikasi Barang / Jasa</th>
-                    <th width="20%" colspan="2">Banyaknya</th>
+                    <th width="20%">Banyaknya</th>
+                    <th><input type="checkbox" onClick="toggle(this)"> All</th>
                   </tr>
                 </thead>
                 <tbody>   
@@ -83,39 +83,41 @@
                     <td>1</td>
                     <td>ATK</td>
                     <td>Donec id elit non mi porta gravida at eget metus</td>
-                    <td colspan="2">3 Buah</td>
+                    <td>3 Buah</td>
+                    <td><input type="checkbox" name="acckabid" value="no1"></td>
                   </tr>  
                   <tr style="">
                     <td>2</td>
                     <td>ATK</td>
                     <td>Donec id elit non mi porta gravida at eget metus</td>
-                    <td colspan="2">2 Set</td>
+                    <td>2 Set</td>
+                    <td><input type="checkbox" name="acckabid" value="no3"></td>
                   </tr>  
                   <tr style="">
                     <td>3</td>
                     <td>ATK</td>
                     <td>Donec id elit non mi porta gravida at eget metus</td>
-                    <td colspan="2">1 Buah</td>
+                    <td>1 Buah</td>
+                    <td><input type="checkbox" name="acckabid" value="no3"></td>
                   </tr>  
                   <tr style="">
                     <td>4</td>
                     <td>ATK</td>
                     <td>Donec id elit non mi porta gravida at eget metus</td>
-                    <td colspan="2">1 Pack</td>
-                  </tr>
-                  <tr style="">
-                    <td></td>
-                    <td><input class="form-control" type="text" name="kategori" required></td>
-                    <td><input class="form-control" type="text" name="nbarangjasa" required></td>
-                    <td><input class="form-control" type="text" name="banyak" required></td>
-                    <td><button class="btn btn-info" type="button">Add</button></td>
-                  </tr>    
+                    <td>1 Pack</td>
+                    <td><input type="checkbox" name="acckabid" value="no4"></td>
+                  </tr>   
                 </tbody>
               </table>
             </div>
             <hr>
+            <label for="keterangan">Keterangan</label>
+            <div class="card">
+              <div class="card-body">Implementasi Industri 4.0 pada Industri Komponen Otomotif di Indonesia</div>
+            </div>
+            <hr>
             <div class="form-group">
-              <label for="keterangan">Keterangan</label>
+              <label for="keterangan">Rekomendasi / Catatan Ka.Bag Tata Usaha</label>
               <textarea class="form-control" rows="5" id="keterangan" required></textarea>
             </div>
           </form>          
@@ -165,15 +167,19 @@
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
     <script type="text/javascript">
+      // modal
       $('#myModal').on('shown.bs.modal', function () {
         $('#myInput').focus()
       })
 
-      $(function () {
-        $('[data-toggle="popover"]').popover()
-      })
+      // Acc All
+      function toggle(source) {
+        checkboxes = document.getElementsByName('acckabid');
+        for(var i=0, n=checkboxes.length;i<n;i++) {
+          checkboxes[i].checked = source.checked;
+        }
+      }
     </script>
-
 
   </body>
 </html>

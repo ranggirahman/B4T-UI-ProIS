@@ -1,0 +1,9 @@
+- Alur lupa password ( minta ke admin langsung )
+- Apa saja yang bisa dirubah user selain password, edit nama ? ( itu aja )
+- harus bisa diakses di handphone ? ( sedang dipikirkan )
+
+
+- kepada statis form apa dihilangkan saja karena anggapa semua tertuju ke tempat yang sama ?
+- dari statis apa harus isi sendiri ?
+- centang pada form harus kah ? perlu dibuat tiap kolom checkbox pada setiap jabatan ?
+
