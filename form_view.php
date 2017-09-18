@@ -111,12 +111,12 @@
           <hr>
           <label for="keterangan">Keterangan</label>
           <div class="card">
-            <div class="card-body">Implementasi Industri 4.0 pada Industri Komponen Otomotif di Indonesia</div>
+            <div class="card-body">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</div>
           </div>
           <hr>
           <table>
             <tr>
-              <td>Permintaan diterima oleh Ka.Bag Tata Usaha :</td>
+              <td><b>Permintaan diterima oleh Ka.Bag Tata Usaha :</b></td>
               <td>11 September 2017</td>
             </tr>
           </table>

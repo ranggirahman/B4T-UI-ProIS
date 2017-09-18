@@ -52,7 +52,7 @@
               </tr>
               <tr>
                 <td>Ganti Nama</td>
-                <td><input class="form-control" type="text" name="Nama"></td>
+                <td><input class="form-control" type="text" name="nama"></td>
                 <td></td>
                 <td></td>
               </tr>
