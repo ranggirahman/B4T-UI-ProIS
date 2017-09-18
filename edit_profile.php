@@ -52,32 +52,20 @@
               </tr>
               <tr>
                 <td>Ganti Nama</td>
-                <td><input class="form-control" type="text" name="Nama" required></td>
+                <td><input class="form-control" type="text" name="Nama"></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
                 <td>Ganti Password</td>
-                <td><input class="form-control" type="password" name="ps1" placeholder="Masukan password baru" required></td>
-                <td><input class="form-control" type="password" name="ps2" placeholder="Masukan password baru lagi" required></td>
+                <td><input class="form-control" type="password" name="ps1" placeholder="Masukan password baru"></td>
+                <td><input class="form-control" type="password" name="ps2" placeholder="Masukan password baru lagi"></td>
               </tr>                               
             </table>      
           </form>          
         </div>
-        <div class="card-footer">
-          <table border=0>
-            <tr>
-              <td style="padding-right: 20px">
-                Masukan Kembali Password Lama Anda
-              </td>
-              <td style="padding-right: 20px">
-                <input class="form-control" type="password" name="password" required>
-              </td>
-              <td>            
-                <a href="#" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Save</a>
-              </td>
-            </tr>
-          </table>
+        <div class="card-footer">                  
+          <center><a href="#" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Simpan</a></center>
         </div>
       </div>
       <br>
