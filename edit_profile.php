@@ -40,7 +40,7 @@
 
     <div class="container" style="padding-top: 70px">
       <div class="card">
-        <h4 class="card-header">Edit Profile</h4>
+        <h4 class="card-header"><i class="material-icons">person</i> Edit Profile</h4>
         <div class="card-body">
           <form action='response.php' method='POST'>
             <table class="table borderless">
