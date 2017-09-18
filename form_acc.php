@@ -38,7 +38,6 @@
       </div>
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="container" style="padding-top: 70px">
       <div class="card">
         <h4 class="card-header">Form Daftar Pemesanan Barang / Jasa</h4>
@@ -116,9 +115,11 @@
               <div class="card-body">Implementasi Industri 4.0 pada Industri Komponen Otomotif di Indonesia</div>
             </div>
             <hr>
-            <div class="form-group">
-              <label for="keterangan">Rekomendasi / Catatan Ka.Bag Tata Usaha</label>
-              <textarea class="form-control" rows="5" id="keterangan" required></textarea>
+            <div class="card">
+              <h5 class="card-header">Rekomendasi / Catatan Ka.Bag Tata Usaha</h5>
+              <div class="card-body">
+                <textarea class="form-control" rows="5" id="keterangan" required></textarea>
+              </div>
             </div>
           </form>          
         </div>

@@ -38,7 +38,6 @@
       </div>
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="container" style="padding-top: 70px">
       <div class="card">
         <h4 class="card-header">Form Daftar Pemesanan Barang / Jasa</h4>
