@@ -40,7 +40,7 @@
 
     <div class="container" style="padding-top: 70px">
       <div class="card">
-        <h4 class="card-header">Form Daftar Pemesanan Barang / Jasa</h4>
+        <h4 class="card-header">Daftar Pemesanan Barang / Jasa</h4>
         <div class="card-body">
           <form action='response.php' method='POST'>
             <table class="table borderless">
@@ -114,10 +114,24 @@
             <div class="card">
               <div class="card-body">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</div>
             </div>
-            <hr>
+            <hr>            
             <div class="card">
-              <h5 class="card-header">Rekomendasi / Catatan Ka.Bag Tata Usaha</h5>
-              <div class="card-body">
+              <h5 class="card-header">Form Pernyataan Ka.Bag Tata Usaha</h5>              
+                <div class="card-body">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <b>Setuju</b> dengan pengadaan barang / jasa yang saya tandai
+                  </label>
+                </div>            
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <b>Tidak Setuju</b> dengan semua pengadaan barang / jasa
+                  </label>
+                </div>
+                <hr>
+                <label for="keterangan">Rekomendasi / Catatan</label>
                 <textarea class="form-control" rows="5" id="keterangan" required></textarea>
               </div>
             </div>

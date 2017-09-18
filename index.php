@@ -61,6 +61,7 @@
               <table border=0>
                 <tr>
                   <td><input class="btn btn-success" type="submit" name="submit" data-toggle="modal" data-target="#exampleModal" value="Login"></td>
+                  <td width="3%"></td>
                   <td><input class="btn btn-warning" type="button" name="submit" value="Lupa Password"></td>
                 </tr>                            
               </table>
