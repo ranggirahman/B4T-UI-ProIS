@@ -51,7 +51,7 @@
               </tr>
               <tr>
                 <td>Dari</td>
-                <td colspan="2"><input class="form-control" type="text" name="dari" placeholder="Ranggi Rahman (Seksi Informasi)" data-toggle="popover" title="" data-content="Sesuai ID Login Anda" readonly></td>
+                <td colspan="2"><input class="form-control" type="text" name="dari" placeholder="Ranggi Rahman (Seksi Informasi)" data-toggle="popover" title="" data-content="Sesuai Data Login Anda" readonly></td>
                 <td width="30%"></td>
               </tr>
               <tr>

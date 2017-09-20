@@ -116,7 +116,7 @@
             </div>
             <hr>            
             <div class="card">
-              <h5 class="card-header">Form Pernyataan Ka.Bag Tata Usaha</h5>              
+              <h5 class="card-header">Form Pernyataan</h5>              
                 <div class="card-body">
                 <div class="form-check">
                   <label class="form-check-label">
