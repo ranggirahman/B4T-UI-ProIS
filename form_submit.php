@@ -74,7 +74,7 @@
                     <th width="5%">No.</th>
                     <th width="15%">Kategori</th>
                     <th>Nama dan Spesifikasi Barang / Jasa</th>
-                    <th width="15%" colspan="2">Banyaknya</th>
+                    <th width="18%" colspan="2" style="text-align: center;">Banyaknya</th>
                     <th width="5%" colspan="2"></th>
                   </tr>
                 </thead>
@@ -83,7 +83,7 @@
                     <td>1</td>
                     <td>ATK</td>
                     <td>Donec id elit non mi porta gravida at eget metus</td>
-                    <td>3</td>
+                    <td style="text-align: right;">3</td>
                     <td>Buah</td>
                     <td><button class="btn btn-danger btn-sm" type="button"><i class="material-icons">delete_forever</i></button></td>
                     <td><button class="btn btn-warning btn-sm" type="button"><i class="material-icons">edit</i></button></td>
@@ -92,7 +92,7 @@
                     <td>2</td>
                     <td>ATK</td>
                     <td>Donec id elit non mi porta gravida at eget metus</td>
-                    <td>3</td>
+                    <td style="text-align: right;">3</td>
                     <td>Buah</td>
                     <td><button class="btn btn-danger btn-sm" type="button"><i class="material-icons">delete_forever</i></button></td>
                     <td><button class="btn btn-warning btn-sm" type="button"><i class="material-icons">edit</i></button></td>
@@ -101,7 +101,7 @@
                     <td>3</td>
                     <td>ATK</td>
                     <td>Donec id elit non mi porta gravida at eget metus</td>
-                    <td>3</td>
+                    <td style="text-align: right;">3</td>
                     <td>Buah</td>
                     <td><button class="btn btn-danger btn-sm" type="button"><i class="material-icons">delete_forever</i></button></td>
                     <td><button class="btn btn-warning btn-sm" type="button"><i class="material-icons">edit</i></button></td>
@@ -110,7 +110,7 @@
                     <td>4</td>
                     <td>ATK</td>
                     <td>Donec id elit non mi porta gravida at eget metus</td>
-                    <td>3</td>
+                    <td style="text-align: right;">3</td>
                     <td>Buah</td>
                     <td><button class="btn btn-danger btn-sm" type="button"><i class="material-icons">delete_forever</i></button></td>
                     <td><button class="btn btn-warning btn-sm" type="button"><i class="material-icons">edit</i></button></td>
