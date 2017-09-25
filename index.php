@@ -17,6 +17,17 @@
     <link href="css/material-icons.css" rel="stylesheet">
     <link href="css/jumbotron.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <style type="text/css">
+      .fixed-bg {
+          background-image: url("img/homebg.jpg");
+          min-height: 500px;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+    </style>
+
   </head>
   <body>    
     
