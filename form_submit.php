@@ -71,10 +71,11 @@
               <table border="0" class="table">
                 <thead class="thead-default">
                   <tr>
-                    <th>No.</th>
-                    <th width="17%">Kategori</th>
+                    <th width="5%">No.</th>
+                    <th width="15%">Kategori</th>
                     <th>Nama dan Spesifikasi Barang / Jasa</th>
-                    <th width="20%" colspan="2">Banyaknya</th>
+                    <th width="15%" colspan="2">Banyaknya</th>
+                    <th width="5%" colspan="2"></th>
                   </tr>
                 </thead>
                 <tbody>   
@@ -82,32 +83,45 @@
                     <td>1</td>
                     <td>ATK</td>
                     <td>Donec id elit non mi porta gravida at eget metus</td>
-                    <td colspan="2">3 Buah</td>
+                    <td>3</td>
+                    <td>Buah</td>
+                    <td><button class="btn btn-danger btn-sm" type="button"><i class="material-icons">delete_forever</i></button></td>
+                    <td><button class="btn btn-warning btn-sm" type="button"><i class="material-icons">edit</i></button></td>
                   </tr>  
                   <tr style="">
                     <td>2</td>
                     <td>ATK</td>
                     <td>Donec id elit non mi porta gravida at eget metus</td>
-                    <td colspan="2">2 Set</td>
+                    <td>3</td>
+                    <td>Buah</td>
+                    <td><button class="btn btn-danger btn-sm" type="button"><i class="material-icons">delete_forever</i></button></td>
+                    <td><button class="btn btn-warning btn-sm" type="button"><i class="material-icons">edit</i></button></td>
                   </tr>  
                   <tr style="">
                     <td>3</td>
                     <td>ATK</td>
                     <td>Donec id elit non mi porta gravida at eget metus</td>
-                    <td colspan="2">1 Buah</td>
+                    <td>3</td>
+                    <td>Buah</td>
+                    <td><button class="btn btn-danger btn-sm" type="button"><i class="material-icons">delete_forever</i></button></td>
+                    <td><button class="btn btn-warning btn-sm" type="button"><i class="material-icons">edit</i></button></td>
                   </tr>  
                   <tr style="">
                     <td>4</td>
                     <td>ATK</td>
                     <td>Donec id elit non mi porta gravida at eget metus</td>
-                    <td colspan="2">1 Pack</td>
+                    <td>3</td>
+                    <td>Buah</td>
+                    <td><button class="btn btn-danger btn-sm" type="button"><i class="material-icons">delete_forever</i></button></td>
+                    <td><button class="btn btn-warning btn-sm" type="button"><i class="material-icons">edit</i></button></td>
                   </tr>
                   <tr style="">
                     <td></td>
                     <td><input class="form-control" type="text" name="kategori" required></td>
                     <td><input class="form-control" type="text" name="nbarangjasa" required></td>
-                    <td><input class="form-control" type="text" name="banyak" required></td>
-                    <td><button class="btn btn-info" type="button">Add</button></td>
+                    <td><input class="form-control" type="number" name="banyak" required></td>
+                    <td><input class="form-control" type="text" name="satuan" required></td>
+                    <td colspan="2"><button class="btn btn-info" type="button">Tambahkan</button></td>
                   </tr>    
                 </tbody>
               </table>

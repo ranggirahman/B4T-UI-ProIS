@@ -17,16 +17,6 @@
     <link href="css/material-icons.css" rel="stylesheet">
     <link href="css/jumbotron.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <style> 
-      .fixed-bg {
-          background-image: url("img/homebg.jpg");
-          min-height: 500px;
-          background-attachment: fixed;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-      }
-    </style>
   </head>
   <body>    
     
@@ -107,5 +97,12 @@
     <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script> 
     <script src="js/popper.min.js" type="text/javascript"></script> 
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').focus()
+      })
+
+    </script>
   </body>
 </html>
