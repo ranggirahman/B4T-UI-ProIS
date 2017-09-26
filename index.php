@@ -76,7 +76,7 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-12">
-          <h5>Ini Adalah Website Sistem Informasi Untuk Memudahkan Tracking Berkas Pengadaan Barang dan Jasa Pada Balai Besar Bahan dan Barang Teknik (B4T).</h5>
+          <p>Ini Adalah Website Sistem Informasi Untuk Memudahkan Tracking Berkas Pengadaan Barang dan Jasa Pada Balai Besar Bahan dan Barang Teknik (B4T).</p>
         </div>
       </div>
 

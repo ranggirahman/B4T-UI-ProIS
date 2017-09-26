@@ -119,7 +119,7 @@
                     <td></td>
                     <td><input class="form-control" type="text" name="kategori" required></td>
                     <td><input class="form-control" type="text" name="nbarangjasa" required></td>
-                    <td><input class="form-control" type="number" name="banyak" required></td>
+                    <td><input class="form-control" type="number" name="banyak" min="0" required></td>
                     <td><input class="form-control" type="text" name="satuan" required></td>
                     <td colspan="2"><button class="btn btn-info" type="button">Tambahkan</button></td>
                   </tr>    
