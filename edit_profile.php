@@ -51,6 +51,18 @@
                 <td width="20%"></td>
               </tr>
               <tr>
+                <td width="15%">Divisi</td>
+                <td ><input class="form-control" type="text" name="divisi" placeholder="Seksi Informasi" readonly></td>
+                <td></td>
+                <td width="20%"></td>
+              </tr>
+              <tr>
+                <td width="15%">Jabatan</td>
+                <td ><input class="form-control" type="text" name="jabatan" placeholder="Kepala Seksi Informasi" readonly></td>
+                <td></td>
+                <td width="20%"></td>
+              </tr>
+              <tr>
                 <td>Ganti Nama</td>
                 <td><input class="form-control" type="text" name="nama"></td>
                 <td></td>
