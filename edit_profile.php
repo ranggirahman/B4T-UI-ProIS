@@ -73,12 +73,12 @@
                 <td><input class="form-control" type="password" name="ps1" placeholder="Masukan password baru"></td>
                 <td><input class="form-control" type="password" name="ps2" placeholder="Masukan password baru lagi"></td>
               </tr>                               
-            </table>      
-          </form>          
+            </table>                        
         </div>
         <div class="card-footer">                  
           <center><a href="#" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Simpan</a></center>
         </div>
+        </form>  
       </div>
       <br>
       <br>
