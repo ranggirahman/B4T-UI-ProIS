@@ -33,9 +33,7 @@
           </div>
         </div>       
       </div>
-    </nav>      
-      </div>
-    </nav>
+    </nav> 
 
     <div class="container">
       <section class="row text-center placeholders">

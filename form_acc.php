@@ -34,9 +34,7 @@
           </div>
         </div>       
       </div>
-    </nav>      
-      </div>
-    </nav>
+    </nav> 
 
     <div class="container" style="padding-top: 70px">
       <div class="card">
